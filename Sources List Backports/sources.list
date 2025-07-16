@@ -1,0 +1,15 @@
+# Debian Bookworm - Dépôts principaux
+deb http://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmware
+deb-src http://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmware
+
+# Security updates
+deb http://deb.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware
+deb-src http://deb.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware
+
+# Bookworm updates (proposed updates)
+# deb http://deb.debian.org/debian/ bookworm-updates main contrib non-free non-free-firmware
+# deb-src http://deb.debian.org/debian/ bookworm-updates main contrib non-free non-free-firmware
+
+# Backports
+deb http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware
+deb-src http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware

@@ -2,7 +2,7 @@
 set -e
 
 # Vérifier si l'utilisateur est root
-if [ "$EUID" -ne 0 ]; then 
+if [ "$EUID" -ne 0 ]; then
   echo "Veuillez exécuter ce script en tant que root (sudo)."
   exit 1
 fi
@@ -24,6 +24,7 @@ apt_packages=(
   fwupd
   p7zip-full
   meld
+  ranger
 )
 
 # Installation des paquets avec apt
